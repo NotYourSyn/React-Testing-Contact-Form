@@ -17,9 +17,9 @@ test("all input fields are working", async () => {
   expect(firstName).toBeTruthy();
   expect(email).toBeTruthy();
   expect(message).toBeTruthy();
-  fireEvent.change(firstNameInput,{target: {name:'firstName', value:'Joshua'}});
-  fireEvent.change(lastNameInput,{target: {name:'lastName', value:'Martinez'}});
-  fireEvent.change(emailInput,{target: {name:'email', value:'mrjoshuamartinez@gmail.com'}});
+  fireEvent.change(firstNameInput,{target: {name:'firstName', value:'Chris'}});
+  fireEvent.change(lastNameInput,{target: {name:'lastName', value:'Reisner'}});
+  fireEvent.change(emailInput,{target: {name:'email', value:'chrisreisner@live.com'}});
 }) 
 
 test("renders App without crashing", () => {
